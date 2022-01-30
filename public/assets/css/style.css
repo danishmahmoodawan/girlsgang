@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'RubikMonoOne';
+    src: url('../fonts/RubikMonoOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bungee';
+    src: url('../fonts/Bungee-Regular.ttf');
+}
+body p{
+    font-size: 20px;
+    line-height: 24px;
+}
+body{
+    background-color: #F4A0A7;
+}
+.main_section{
+    background-image: url('../images/main_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+    height: 1020px;
+}
+.col_vertical{
+    display : flex;
+align-items: center
+}
+.background_col{
+    background-image: url('../images/group-4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+    height: 1020px;   
+}
+.head_main{
+    font-family: Bungee;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FF0000;
+    opacity: 0.5;
+   text-align: right;
+}
+.girls_gang, .set_row{
+    padding: 2% 22% 2% 22%;
+}
+.font_bg{
+    font-family: Bungee;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FF0000;
+    opacity: 0.5;
+   float: right;
+}
+.back_bg{
+    background-color: white;
+    width: fit-content;
+}
+.icon_insta{
+    background-image: url('');   
+}
+.girls_icon{
+width: 380px;
+}
+.col_bg_f{
+ color:   #F0E5E3;
+}
+.set_btn{
+    background: #F0E5E3;
+    border-radius: 20px;
+}
+.btn_font{
+    font-family: Bungee;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FF0000;
+    width: 60%;
+}
+.btn_bg{
+background: #F0E5E3;
+color: #FF0000;
+opacity: 0.5;
+margin: 0 auto;
+}
+.btn_bg2{
+    background: #FF0000 !important;
+    color: #F0E5E3 !important;
+    opacity: 0.5 !important;
+    margin: 0 auto;
+}
+.head_text{
+    font-family: Bungee;
+    font-size: 16px;
+    line-height: 19px;
+    float: left;
+}
+.set_pading{
+padding: 0 2%;
+}
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+    /* .background_col{
+        background: #F4A0A7;
+        height: 1020px;
+    }
+    .main_section{
+height: 1020px;
+    } */
+}
+@media only screen and (max-width: 767px) {
+  
+    .head_main, .font_bg{
+        font-size: 30px;
+        line-height: 28px;
+       text-align: right;
+    }
+    .set_row{
+padding: 2%;
+    }
+    .imge_set{
+width: 90%;
+    }
+    .background_col{
+        background: #F4A0A7;
+        height: 900px;
+    }
+    .main_section{
+height: 900px;
+    }
+  }
+  
