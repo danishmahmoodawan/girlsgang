@@ -5,27 +5,27 @@ import { useState, useEffect } from 'react';
 function Home() {
   return (
    <> 
-    <section className="main_section ">
-  <div className="container-fluid set_pading">
-    <div className="row">
-      <div className="col-12 col-md-5 col_vertical">
-        <h2 className="head_main mob_pa">
-          “ SOME QUOTE CAN <br /> BE PLACED HERE AS <br /> A HEADING”{" "}
-          <p className="font_bg back_bg"> . SOME GIRL</p>
+    <section class="main_section ">
+  <div class="container-fluid set_pading">
+    <div class="row">
+      <div class="col-12 col-md-5 col_vertical">
+        <h2 class="head_main">
+          “ SOME QUOTE CAN BE PLACED HERE AS A HEADING”{" "}
+          <p class="font_bg back_bg"> . SOME GIRL</p>
         </h2>
       </div>
-      <div className="col-12 col-md-6 background_col">
-        <div className="row set_row text-center">
-          <div className="col-12">
+      <div class="col-12 col-md-6 background_col">
+        <div class="row set_row text">
+          <div class="col-12">
             <img
-              className="imge_set"
+              class="imge_set"
               src="assets/images/logo.png"
               alt="girls_gangs"
             />{" "}
           </div>{" "}
         </div>
-        <div className="row set_row  text-center">
-          <div className="col-12">
+        <div class="row set_row  text-center">
+          <div class="col-12">
             {" "}
             <a href="#">
               <img src="assets/images/icon/ICON_INSTA.svg" alt="insta_icon" />
@@ -50,41 +50,41 @@ function Home() {
             </a>
           </div>{" "}
         </div>
-        <div className="row set_row  text-center">
-          <div className="col-12">
+        <div class="row set_row  text-center">
+          <div class="col-12">
             <img
-              className="girls_icon imge_set"
+              class="girls_icon imge_set"
               src="assets/images/Group_2.svg"
               alt="girls_gangs"
             />{" "}
           </div>{" "}
         </div>
-        <div className="row set_row  text-center">
-          <div className="col-12">
-            <h5 className="d-inline head_main">1369</h5>
-            <h5 className="d-inline head_main col_bg_f">/2500</h5>{" "}
+        <div class="row set_row  text-center">
+          <div class="col-12">
+            <h5 class="d-inline head_main">1369</h5>
+            <h5 class="d-inline head_main col_bg_f">/2500</h5>{" "}
           </div>{" "}
         </div>
-        <div className="row set_row  text-center">
-          <div className="col-12">
-            <button type="button" className="btn btn_font btn_bg mb-2 d-block">
+        <div class="row set_row  text-center">
+          <div class="col-12">
+            <button type="button" class="btn btn_font btn_bg mb-2 d-block">
               20
             </button>
-            <button type="button" className="btn btn_font btn_bg2 mb-2 d-block">
+            <button type="button" class="btn btn_font btn_bg2 mb-2 d-block">
               MINT
             </button>
           </div>{" "}
         </div>
-        <div className="row set_row  text-center">
-          <div className="col-12">
-            <h5 className="d-inline head_text col_bg_f">
+        <div class="row set_row  text-center">
+          <div class="col-12">
+            <h5 class="d-inline head_text col_bg_f">
               2500 NFTs of diverse and powerful Girls Not affiliated with either
               project we are derived from
             </h5>{" "}
           </div>{" "}
         </div>
       </div>
-      <div className="col-12 col-md-1"> </div>
+      <div class="col-12 col-md-2"> </div>
     </div>
   </div>
 </section>;

@@ -10,6 +10,9 @@ body p{
     font-size: 20px;
     line-height: 24px;
 }
+body{
+    background-color: #F4A0A7;
+}
 .main_section{
     background-image: url('../images/main_bg.svg');
     background-repeat: no-repeat;
@@ -22,7 +25,7 @@ body p{
 align-items: center
 }
 .background_col{
-    background-image: url('../images/group-4.png');
+    background-image: url('../images/group-4_c.png');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: black; */
@@ -37,7 +40,7 @@ align-items: center
    text-align: right;
 }
 .girls_gang, .set_row{
-    padding: 2% 10% 2% 10%;
+    padding: 2% 22% 2% 22%;
 }
 .font_bg{
     font-family: Bungee;
@@ -118,14 +121,8 @@ width: 90%;
         background: #F4A0A7;
         height: 900px;
     }
-    /* br{
-        display: none;
-    } */
     .main_section{
 height: 900px;
-    }
-    .mob_pa{
-margin-top: 6%;
     }
   }
   

@@ -9,7 +9,7 @@ function Home() {
   <div className="container-fluid set_pading">
     <div className="row">
       <div className="col-12 col-md-5 col_vertical">
-        <h2 className="head_main mob_pa">
+        <h2 className="head_main">
           “ SOME QUOTE CAN <br /> BE PLACED HERE AS <br /> A HEADING”{" "}
           <p className="font_bg back_bg"> . SOME GIRL</p>
         </h2>
